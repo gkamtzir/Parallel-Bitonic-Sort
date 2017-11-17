@@ -1,0 +1,63 @@
+For 2^16 elements use  OpenMP imperative with 2^3 threads and estimated time=0.003462
+---Pthreads recursive 's estimated time +0.002523s or +72.89%
+---    Cilk recursive 's estimated time +0.001840s or +53.13%
+---   Cilk imperative 's estimated time +0.004791s or +138.39%
+---  OpenMP recursive 's estimated time +0.001567s or +45.28%
+--- OpenMP imperative 's estimated time +0.000000s or +0.00%
+---             qsort 's estimated time +0.005306s or +153.25%
+For 2^17 elements use  OpenMP imperative with 2^3 threads and estimated time=0.005889
+---Pthreads recursive 's estimated time +0.002184s or +37.09%
+---    Cilk recursive 's estimated time +0.003940s or +66.90%
+---   Cilk imperative 's estimated time +0.012165s or +206.56%
+---  OpenMP recursive 's estimated time +0.002873s or +48.79%
+--- OpenMP imperative 's estimated time +0.000000s or +0.00%
+---             qsort 's estimated time +0.012527s or +212.73%
+For 2^18 elements use  OpenMP imperative with 2^3 threads and estimated time=0.011496
+---Pthreads recursive 's estimated time +0.004796s or +41.72%
+---    Cilk recursive 's estimated time +0.005709s or +49.67%
+---   Cilk imperative 's estimated time +0.017369s or +151.09%
+---  OpenMP recursive 's estimated time +0.005338s or +46.43%
+--- OpenMP imperative 's estimated time +0.000000s or +0.00%
+---             qsort 's estimated time +0.027271s or +237.23%
+For 2^19 elements use  OpenMP imperative with 2^3 threads and estimated time=0.032573
+---Pthreads recursive 's estimated time +0.000521s or +1.60%
+---    Cilk recursive 's estimated time +0.001231s or +3.78%
+---   Cilk imperative 's estimated time +0.019121s or +58.70%
+---  OpenMP recursive 's estimated time +0.001207s or +3.70%
+--- OpenMP imperative 's estimated time +0.000000s or +0.00%
+---             qsort 's estimated time +0.048731s or +149.60%
+For 2^20 elements use  OpenMP imperative with 2^3 threads and estimated time=0.062338
+---Pthreads recursive 's estimated time +0.000212s or +0.34%
+---    Cilk recursive 's estimated time +0.000582s or +0.93%
+---   Cilk imperative 's estimated time +0.027200s or +43.63%
+---  OpenMP recursive 's estimated time +0.003997s or +6.41%
+--- OpenMP imperative 's estimated time +0.000000s or +0.00%
+---             qsort 's estimated time +0.109098s or +175.01%
+For 2^21 elements use Pthreads recursive with 2^3 threads and estimated time=0.113038
+---Pthreads recursive 's estimated time +0.000000s or +0.00%
+---    Cilk recursive 's estimated time +0.003514s or +3.11%
+---   Cilk imperative 's estimated time +0.058146s or +51.44%
+---  OpenMP recursive 's estimated time +0.012399s or +10.97%
+--- OpenMP imperative 's estimated time +0.009206s or +8.14%
+---             qsort 's estimated time +0.247392s or +218.86%
+For 2^22 elements use     Cilk recursive with 2^4 threads and estimated time=0.223328
+---Pthreads recursive 's estimated time +0.004912s or +2.20%
+---    Cilk recursive 's estimated time +0.000000s or +0.00%
+---   Cilk imperative 's estimated time +0.108340s or +48.51%
+---  OpenMP recursive 's estimated time +0.013979s or +6.26%
+--- OpenMP imperative 's estimated time +0.016558s or +7.41%
+---             qsort 's estimated time +0.533010s or +238.67%
+For 2^23 elements use     Cilk recursive with 2^3 threads and estimated time=0.429549
+---Pthreads recursive 's estimated time +0.015447s or +3.60%
+---    Cilk recursive 's estimated time +0.000000s or +0.00%
+---   Cilk imperative 's estimated time +0.200005s or +46.56%
+---  OpenMP recursive 's estimated time +0.003418s or +0.80%
+--- OpenMP imperative 's estimated time +0.150056s or +34.93%
+---             qsort 's estimated time +1.152387s or +268.28%
+For 2^24 elements use Pthreads recursive with 2^3 threads and estimated time=0.838842
+---Pthreads recursive 's estimated time +0.000000s or +0.00%
+---    Cilk recursive 's estimated time +0.012227s or +1.46%
+---   Cilk imperative 's estimated time +0.460917s or +54.95%
+---  OpenMP recursive 's estimated time +0.026511s or +3.16%
+--- OpenMP imperative 's estimated time +0.486514s or +58.00%
+---             qsort 's estimated time +2.465742s or +293.95%

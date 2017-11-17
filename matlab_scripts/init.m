@@ -1,21 +1,33 @@
 %Initializes the environment for running the comparison scripts.
+%!!!assumes that current directory is matlab_scripts!!!
+
+%---INPUT FILE PATHS FOR LINUX/OS and WINDOWS---
+data_file_name = 'data.txt';
+data_paths = ["../data/" "..\data\"];
 
 %---OUTPUT FILE PATHS FOR LINUX/OS and WINDOWS---
 plot_paths = ["../plots/" "../plots/times/" "../plots/speedUps/" ... 
     "..\plots\" "..\plots\times\" "..\plots\speedUps\"];
 text_paths = ["./" ".\"];
+
 if ispc
+    data_path = char(data_paths(2));
     plot_path = char(plot_paths(4));
     time_plot_path = char(plot_paths(5));
     speedUp_plot_path = char(plot_paths(6));
     text_path = char(text_paths(2));
 else
+    data_path = char(data_paths(1));
     plot_path = char(plot_paths(1));
     time_plot_path = char(plot_paths(2));
     speedUp_plot_path = char(plot_paths(3));
     text_path = char(text_paths(1));
 end
 %------------------------------------------------
+
+edit raw_run_times.m;
+copyfile([data_path data_file_name], 'raw_run_times.m' );
+
 raw_run_times
 run_times_medians
 

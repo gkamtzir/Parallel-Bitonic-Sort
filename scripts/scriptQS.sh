@@ -20,7 +20,7 @@ do
 		i=$MIN_ARRAY_SIZE
 		while [ $i -le $MAX_ARRAY_SIZE ]
 		do
-			../dbin/datagenQS "$i" "$h" "$MAX_ARRAY_SIZE"
+			../datagen_bin/datagenQS "$i" "$h" "$MAX_ARRAY_SIZE"
 			i=$(($i + 1))
 		done
 		if [ $j != $SAMPLES ]
